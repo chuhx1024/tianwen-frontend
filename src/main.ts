@@ -6,6 +6,7 @@ import router from './router'
 
 import 'normalize.css/normalize.css' // A modern alternative to CSS resets
 import '@/assets/styles/index.scss'
+import '@/assets/styles/iconfont/index'
 
 const app = createApp(App)
 
