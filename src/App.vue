@@ -1,6 +1,4 @@
 <template>
-    123
-    <a-button> 22 </a-button>
     <RouterView />
 </template>
 <script setup lang="ts">

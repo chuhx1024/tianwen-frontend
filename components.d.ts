@@ -8,7 +8,11 @@ export {}
 declare module 'vue' {
   export interface GlobalComponents {
     AButton: typeof import('ant-design-vue/es')['Button']
+    AMenu: typeof import('ant-design-vue/es')['Menu']
+    AMenuItem: typeof import('ant-design-vue/es')['MenuItem']
+    ASubMenu: typeof import('ant-design-vue/es')['SubMenu']
     HelloWorld: typeof import('./src/components/HelloWorld.vue')['default']
+    IluIcons: typeof import('./src/components/IluIcons.vue')['default']
     RouterLink: typeof import('vue-router')['RouterLink']
     RouterView: typeof import('vue-router')['RouterView']
     TheWelcome: typeof import('./src/components/TheWelcome.vue')['default']

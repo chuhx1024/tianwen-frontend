@@ -93,26 +93,3 @@ ol,
 li {
     list-style-type: none;
 }
-
-.empty-box {
-    height: 424px;
-
-    .empty-img {
-        width: 160px;
-        height: 108px;
-        margin: 0 auto;
-        background: url('~@/assets/img/empty.png');
-        background-size: 100%;
-    }
-
-    .empty-text {
-        margin-top: 20px;
-        color: #909399;
-        font-size: 14px;
-    }
-}
-
-// 使用时需单独增加此类名
-.create-btn {
-    height: 40px;
-}
