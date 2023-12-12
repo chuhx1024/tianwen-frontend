@@ -1,4 +1,3 @@
-
 import BasicLayout from '@/layout/BasicLayout.vue'
 export default [
     {
@@ -15,10 +14,12 @@ export default [
                     title: 'Dataset',
                     icon: 'ILU-shujuzhongxin1',
                 },
-                component: (process.env.NODE_ENV === 'development' || process.env.NODE_ENV === 'mock') ? () => import(/* webpackChunkName: "example" */ '@/views/Example.vue') : null,
+                component:
+                    process.env.NODE_ENV === 'development' || process.env.NODE_ENV === 'mock'
+                        ? () => import(/* webpackChunkName: "example" */ '@/views/Example.vue')
+                        : null,
                 // component: () => import(/* webpackChunkName: "example" */ '@/views/Example.vue'),
             },
         ],
-
     },
 ]
