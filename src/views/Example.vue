@@ -60,8 +60,6 @@ let iconFontNames = jsonData.glyphs
 onMounted(() => {
     const files = import.meta.glob('@/assets/svgs/*.svg')
     iconNames.value = Object.keys(files)
-
-    console.log(jsonData, 123)
 })
 </script>
 <style lang="scss" scoped>

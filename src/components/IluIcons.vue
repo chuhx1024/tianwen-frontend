@@ -2,7 +2,7 @@
     <svg
         aria-hidden="true"
         class="svg-icon"
-        :style="width === '' ? { width: '1.1em', height: '1.1em' } : {}"
+        :style="width === null ? { width: '1.1em', height: '1.1em' } : {}"
         :width="width"
         :height="height"
     >
@@ -22,12 +22,12 @@ const props = defineProps({
         required: true,
     },
     width: {
-        type: String,
-        default: '',
+        type: String || null,
+        default: null,
     },
     height: {
-        type: String,
-        default: '',
+        type: String || null,
+        default: null,
     },
 })
 const symbolId = computed(() =>

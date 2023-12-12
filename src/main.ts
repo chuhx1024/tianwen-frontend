@@ -8,6 +8,8 @@ import 'normalize.css/normalize.css' // A modern alternative to CSS resets
 import '@/assets/styles/index.scss'
 import '@/assets/styles/iconfont/index'
 
+import 'virtual:svg-icons-register'
+
 const app = createApp(App)
 
 app.use(createPinia())
