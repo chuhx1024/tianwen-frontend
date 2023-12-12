@@ -14,7 +14,6 @@
     justify-content: center;
     width: 138px;
     height: 100%;
-    background: #ccc;
 
     .logo-img {
         height: 60%;
