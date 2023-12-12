@@ -1,9 +1,9 @@
 <template>
-    <div class="the-menu-container">导航</div>
+    <div class="tarin-container">tarin</div>
 </template>
 <script setup lang="ts"></script>
 <style lang="scss" scoped>
-.the-menu-container {
-    flex: 1;
+.tarin-container {
+    color: purple;
 }
 </style>

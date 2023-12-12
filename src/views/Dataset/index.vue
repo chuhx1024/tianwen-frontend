@@ -1,9 +1,9 @@
 <template>
-    <div class="the-menu-container">导航</div>
+    <div class="dataset-container">dataset</div>
 </template>
 <script setup lang="ts"></script>
 <style lang="scss" scoped>
-.the-menu-container {
-    flex: 1;
+.dataset-container {
+    color: purple;
 }
 </style>

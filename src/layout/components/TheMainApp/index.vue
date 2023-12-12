@@ -3,6 +3,7 @@
         主区域
         <ilu-icons name="ILU-user" width="100px" height="100px" />
         <ilu-icons name="dashboard" width="100px" height="100px" />
+        <RouterView />
     </div>
 </template>
 <script setup lang="ts"></script>
