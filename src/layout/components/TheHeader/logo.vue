@@ -1,5 +1,5 @@
 <template>
-    <RouterLink class="logo-container" to="/">
+    <RouterLink class="logo-container" to="/home/evaluate">
         <img class="logo-img" src="@/assets/imgs/layout/logo.png" alt="" />
     </RouterLink>
 </template>
@@ -12,7 +12,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 138px;
+    // width: 138px;
     height: 100%;
 
     .logo-img {
