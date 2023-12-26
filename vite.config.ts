@@ -8,6 +8,7 @@ import { AntDesignVueResolver } from 'unplugin-vue-components/resolvers'
 
 import { createSvgIconsPlugin } from 'vite-plugin-svg-icons'
 import path from 'path'
+import pluginEslint from 'vite-plugin-eslint'
 
 // https://vitejs.dev/config/
 export default defineConfig({
@@ -25,6 +26,9 @@ export default defineConfig({
             iconDirs: [path.resolve(process.cwd(), 'src/assets/svgs')],
             // 指定symbolId格式
             symbolId: 'icon-[dir]-[name]',
+        }),
+        pluginEslint({
+            include: ['src/*.tsx', 'src/**/*.tsx', 'src/*.ts', 'src/**/*.ts'],
         }),
     ],
     resolve: {
